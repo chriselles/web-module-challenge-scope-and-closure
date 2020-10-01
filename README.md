@@ -27,22 +27,25 @@ There are layers upon layers of nested functions within the game of baseball. Yo
 
 ### Task 1 - Set Up Project and Tests
 
-1. Fork repo and add TL as collaborator on Github
-2. Clone _your_ fork (not Lambda's repo by mistake!)
-3. `cd` into your newly cloned repository
-4. Create a new branch by typing `git checkout -b <firstName-lastName>`
-5. Work on your branch, push commits and create PR as usual
+1.[X] Fork repo and add TL as collaborator on Github
+2.[X] Clone _your_ fork (not Lambda's repo by mistake!)
+3.[X] `cd` into your newly cloned repository
+4.[x] Create a new branch by typing `git checkout -b <firstName-lastName>`
+5.[x] Work on your branch, push commits and create PR as usual
 
 ### Task 2a - MVP code
 
-Find the file `index.js` and complete the tasks.
+[X] Find the file `index.js` and complete the tasks.
 
 ### Task 2b - Written questions
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
-2. Study the following code, then answer the questions below.
+1.[X] In your own words, define closure (1-2 sentences).
+
+closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). Closure gives you access to an outer function's scope from an inner function.
+
+2.[X] Study the following code, then answer the questions below.
 
 ```js
 function personalDice(name){
@@ -62,12 +65,20 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a.[X] Where is closure used in this code? How can you tell?
 
-### Task 2c - Exit Ticket
+The 'personalDice' function using the 'name' variable without passing it into the function. 
 
+b.[X] Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The name remains the same, but the variable 'newRoll" changes. 
+
+c.[X] What is the lexical scope of `newRoll`? 
+
+It remains within the function.
+
+### Task 2c - Exit Ticket 
+[X]
 Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/WjSzNh9gDrD8Xn8hw/enY3yPRP3nEm7E).
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
@@ -108,6 +119,6 @@ addSix(21); // returns 27
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Team Lead as a reviewer on the pull request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master
